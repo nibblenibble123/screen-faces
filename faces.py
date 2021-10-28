@@ -57,7 +57,7 @@ while True:
     pixels[29] = (0, 255, 0)
     pixels[26] = (0, 255, 0)
     pixels[37] = (0, 255, 0)
-   elif faceValue = 3:
+	elif faceValue = 3:
     #frown 
     pixels.show()
     pixels.fill((0, 0, 0))
