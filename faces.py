@@ -21,10 +21,11 @@ sleep(2)
 
 
 while True:
-  faceButton.wait_for_press()
-  faceValue + 1
+  if faceButton.is_pressed:
+    faceValue + 1
+  
   if faceValue == 4:
-     faceValue = 1
+    faceValue = 1
   
   if faceValue = 1:
     #smile
@@ -72,7 +73,9 @@ while True:
     pixels[26] = (0, 255, 0)
     pixels[37] = (0, 255, 0)
   
-  joe = random.randrange(1, 300)
+ 
+joe = random.randrange(1, 300)
+
   if joe == 30:
     pixels[34] = (0, 0, 0)
     pixels[30] = (0, 255, 0)
